@@ -102,3 +102,20 @@ Review its help and expected input before using it on a project backlog.
 ## Practical Principle
 
 A backlog full of vague stories is not a plan. Make work understandable and testable before asking a team to estimate or commit to it.
+
+
+## Supporting Resources
+
+| File | Purpose |
+|---|---|
+| [Product outcome brief](resources/product-outcome-brief-template.md) | Capture the problem, evidence, user outcome, and measurable success criteria. |
+| [User story review checklist](resources/user-story-review-checklist.md) | Review INVEST quality, acceptance criteria, dependencies, and delivery readiness. |
+| [Sprint planning worksheet](resources/sprint-planning-worksheet.md) | Plan capacity, candidate work, commitments, and delivery risks. |
+
+## Utility limitations
+
+The included Python script currently demonstrates story generation from a hard-coded sample epic. Its sprint mode uses a sample backlog and accepts a capacity argument; it is not a general backlog importer or a validated estimation engine. Review generated narratives, priorities, point estimates, and acceptance criteria with the product team before using them in delivery decisions.
+
+## License
+
+The root [MIT License](LICENSE) applies to this repository's original material.
